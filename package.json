@@ -1,0 +1,25 @@
+{
+  "name": "serverdetect",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "engines": {
+    "node": "11.5.0"
+  },
+  "dependencies": {
+    "@google-cloud/vision": "^0.25.0",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "fs": "^0.0.1-security",
+    "mongoose": "^5.4.6",
+    "multer": "^1.4.1",
+    "natural": "^0.6.3",
+    "redis": "^2.8.0",
+    "util": "^0.11.1"
+  },
+  "scripts": {
+    "start": "GOOGLE_APPLICATION_CREDENTIALS='./private/key.json' node index.js",
+    "build": "webpack" 
+  }
+}
