@@ -19,7 +19,6 @@
     "util": "^0.11.1"
   },
   "scripts": {
-    "start": "GOOGLE_APPLICATION_CREDENTIALS='./private/key.json' node index.js",
-    "build": "webpack" 
+    "start": "GOOGLE_APPLICATION_CREDENTIALS='./private/key.json' node index.js"
   }
 }
